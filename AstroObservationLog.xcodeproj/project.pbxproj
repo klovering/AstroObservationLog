@@ -12,6 +12,7 @@
 		D7ED17AC1C63DED700CA7B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED17AA1C63DED700CA7B2A /* Main.storyboard */; };
 		D7ED17AE1C63DED700CA7B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ED17AD1C63DED700CA7B2A /* Assets.xcassets */; };
 		D7ED17B11C63DED700CA7B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED17AF1C63DED700CA7B2A /* LaunchScreen.storyboard */; };
+		D7ED17B91C63DFA000CA7B2A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17B81C63DFA000CA7B2A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7ED17AD1C63DED700CA7B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7ED17B01C63DED700CA7B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7ED17B21C63DED700CA7B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ED17B81C63DFA000CA7B2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		D7ED179A1C63DED700CA7B2A = {
 			isa = PBXGroup;
 			children = (
+				D7ED17B81C63DFA000CA7B2A /* README.md */,
 				D7ED17A51C63DED700CA7B2A /* AstroObservationLog */,
 				D7ED17A41C63DED700CA7B2A /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7ED17B91C63DFA000CA7B2A /* README.md in Sources */,
 				D7ED17A91C63DED700CA7B2A /* ViewController.swift in Sources */,
 				D7ED17A71C63DED700CA7B2A /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +288,7 @@
 				D7ED17B71C63DED700CA7B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
