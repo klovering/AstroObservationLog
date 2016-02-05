@@ -16,6 +16,9 @@
 		D7ED17BD1C63E47300CA7B2A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17BC1C63E47300CA7B2A /* ListViewController.swift */; };
 		D7ED17BF1C63E48900CA7B2A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17BE1C63E48900CA7B2A /* AddViewController.swift */; };
 		D7ED17C11C63E4BE00CA7B2A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17C01C63E4BE00CA7B2A /* AboutViewController.swift */; };
+		D7ED17C71C64EEBE00CA7B2A /* Observations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17C61C64EEBE00CA7B2A /* Observations.swift */; };
+		D7ED17C91C64EEE400CA7B2A /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17C81C64EEE400CA7B2A /* Observation.swift */; };
+		D7ED17CB1C6504A900CA7B2A /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17CA1C6504A900CA7B2A /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		D7ED17BC1C63E47300CA7B2A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D7ED17BE1C63E48900CA7B2A /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		D7ED17C01C63E4BE00CA7B2A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		D7ED17C61C64EEBE00CA7B2A /* Observations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observations.swift; sourceTree = "<group>"; };
+		D7ED17C81C64EEE400CA7B2A /* Observation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
+		D7ED17CA1C6504A900CA7B2A /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				D7ED17BC1C63E47300CA7B2A /* ListViewController.swift */,
 				D7ED17BE1C63E48900CA7B2A /* AddViewController.swift */,
 				D7ED17C01C63E4BE00CA7B2A /* AboutViewController.swift */,
+				D7ED17C61C64EEBE00CA7B2A /* Observations.swift */,
+				D7ED17C81C64EEE400CA7B2A /* Observation.swift */,
+				D7ED17CA1C6504A900CA7B2A /* Entry.swift */,
 			);
 			path = AstroObservationLog;
 			sourceTree = "<group>";
@@ -147,11 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7ED17C91C64EEE400CA7B2A /* Observation.swift in Sources */,
 				D7ED17C11C63E4BE00CA7B2A /* AboutViewController.swift in Sources */,
 				D7ED17BF1C63E48900CA7B2A /* AddViewController.swift in Sources */,
 				D7ED17B91C63DFA000CA7B2A /* README.md in Sources */,
 				D7ED17A91C63DED700CA7B2A /* ViewController.swift in Sources */,
 				D7ED17BD1C63E47300CA7B2A /* ListViewController.swift in Sources */,
+				D7ED17CB1C6504A900CA7B2A /* Entry.swift in Sources */,
+				D7ED17C71C64EEBE00CA7B2A /* Observations.swift in Sources */,
 				D7ED17A71C63DED700CA7B2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
