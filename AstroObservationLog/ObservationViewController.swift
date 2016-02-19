@@ -17,8 +17,10 @@ class ObservationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print (observation)
+        
         if let o = observation {
-            observationNameLabel.text = "Test"
+            observationNameLabel.text = "test"
         }
     }
 

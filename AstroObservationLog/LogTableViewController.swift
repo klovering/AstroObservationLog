@@ -60,9 +60,12 @@ class LogTableViewController: UITableViewController {
         
         
             let observation = Observation()
-            observation.entry = entry1
+            observation.entry = entry2
         
             observationsInList = [observation]
+        
+        print(observation)
+        print(observationsInList)
         
     }
 
