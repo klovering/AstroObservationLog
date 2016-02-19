@@ -21,7 +21,7 @@ class LogTableViewController: UITableViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        //let entry = Entry()
+        var entries: [Entry]?
         
                 let entry1 = Entry()
                 let entry2 = Entry()
@@ -56,18 +56,14 @@ class LogTableViewController: UITableViewController {
                 entry4.instrument = "Binoculars"
                 entry4.notes = "Could see three moons clearly"
         
-//        
-//        entry.object = "Sirius"
-//        entry.date = "02/15/2016"
-//        entry.power = "25x"
-//        entry.seeing = "Level 4 - Excellent"
-//        entry.instrument = "Celstron 925 GPS XLT SCT"
-//        entry.notes = "Great clarity; Little noise in the air."
+                entries = [entry1, entry2, entry3, entry4]
         
-        let observation = Observation()
-        observation.entry = entry1
         
-        observationsInList = [observation]
+            let observation = Observation()
+            observation.entry = entry1
+        
+            observationsInList = [observation]
+        
     }
 
 
@@ -97,6 +93,19 @@ class LogTableViewController: UITableViewController {
             // Delete the row from the data source
             observationsInList?.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        if segue.identifier == "Show Product" {
+            let observationVC = segue.destinationViewController as? ObservationViewController
+            
+            guard let cell = sender as? UITableViewCell,
+                let indexPath = tableView.indexPathForCell(cell) else {
+                    return
+            }
+            
+            observationVC?.observation = observationsInList?[indexPath.row]
         }
     }
     

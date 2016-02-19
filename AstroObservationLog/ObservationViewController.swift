@@ -9,11 +9,17 @@
 import UIKit
 
 class ObservationViewController: UIViewController {
+    
+    @IBOutlet weak var observationNameLabel: UILabel!
+    
+    var observation: Observation?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        if let o = observation {
+            observationNameLabel.text = "Test"
+        }
     }
 
     override func didReceiveMemoryWarning() {
