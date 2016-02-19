@@ -9,8 +9,5 @@
 import Foundation
 
 class Entry {
-    var object: String?
-    var productImage: String?
-    var cellImage: String?
-    var price: Double?
+    var object, date, power, seeing, instrument, notes: String?
 }

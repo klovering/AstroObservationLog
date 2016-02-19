@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D74870B91C764AB9003D8E5A /* ObservationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74870B81C764AB9003D8E5A /* ObservationTableViewController.swift */; };
+		D74870BB1C7653A4003D8E5A /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74870BA1C7653A4003D8E5A /* LogTableViewController.swift */; };
+		D74870BD1C765F9A003D8E5A /* Observations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74870BC1C765F9A003D8E5A /* Observations.swift */; };
+		D74870BF1C767324003D8E5A /* ObservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74870BE1C767324003D8E5A /* ObservationViewController.swift */; };
 		D7ED17A71C63DED700CA7B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17A61C63DED700CA7B2A /* AppDelegate.swift */; };
 		D7ED17A91C63DED700CA7B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17A81C63DED700CA7B2A /* ViewController.swift */; };
 		D7ED17AC1C63DED700CA7B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED17AA1C63DED700CA7B2A /* Main.storyboard */; };
 		D7ED17AE1C63DED700CA7B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ED17AD1C63DED700CA7B2A /* Assets.xcassets */; };
 		D7ED17B11C63DED700CA7B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED17AF1C63DED700CA7B2A /* LaunchScreen.storyboard */; };
 		D7ED17B91C63DFA000CA7B2A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17B81C63DFA000CA7B2A /* README.md */; };
-		D7ED17BD1C63E47300CA7B2A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17BC1C63E47300CA7B2A /* ListViewController.swift */; };
 		D7ED17BF1C63E48900CA7B2A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17BE1C63E48900CA7B2A /* AddViewController.swift */; };
 		D7ED17C11C63E4BE00CA7B2A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17C01C63E4BE00CA7B2A /* AboutViewController.swift */; };
-		D7ED17C71C64EEBE00CA7B2A /* Observations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17C61C64EEBE00CA7B2A /* Observations.swift */; };
 		D7ED17C91C64EEE400CA7B2A /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17C81C64EEE400CA7B2A /* Observation.swift */; };
 		D7ED17CB1C6504A900CA7B2A /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17CA1C6504A900CA7B2A /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D74870B81C764AB9003D8E5A /* ObservationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationTableViewController.swift; sourceTree = "<group>"; };
+		D74870BA1C7653A4003D8E5A /* LogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTableViewController.swift; sourceTree = "<group>"; };
+		D74870BC1C765F9A003D8E5A /* Observations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observations.swift; sourceTree = "<group>"; };
+		D74870BE1C767324003D8E5A /* ObservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationViewController.swift; sourceTree = "<group>"; };
 		D7ED17A31C63DED700CA7B2A /* AstroObservationLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroObservationLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ED17A61C63DED700CA7B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7ED17A81C63DED700CA7B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,10 +36,8 @@
 		D7ED17B01C63DED700CA7B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7ED17B21C63DED700CA7B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7ED17B81C63DFA000CA7B2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D7ED17BC1C63E47300CA7B2A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D7ED17BE1C63E48900CA7B2A /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		D7ED17C01C63E4BE00CA7B2A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		D7ED17C61C64EEBE00CA7B2A /* Observations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observations.swift; sourceTree = "<group>"; };
 		D7ED17C81C64EEE400CA7B2A /* Observation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
 		D7ED17CA1C6504A900CA7B2A /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,12 +79,14 @@
 				D7ED17AD1C63DED700CA7B2A /* Assets.xcassets */,
 				D7ED17AF1C63DED700CA7B2A /* LaunchScreen.storyboard */,
 				D7ED17B21C63DED700CA7B2A /* Info.plist */,
-				D7ED17BC1C63E47300CA7B2A /* ListViewController.swift */,
 				D7ED17BE1C63E48900CA7B2A /* AddViewController.swift */,
 				D7ED17C01C63E4BE00CA7B2A /* AboutViewController.swift */,
-				D7ED17C61C64EEBE00CA7B2A /* Observations.swift */,
-				D7ED17C81C64EEE400CA7B2A /* Observation.swift */,
 				D7ED17CA1C6504A900CA7B2A /* Entry.swift */,
+				D74870BA1C7653A4003D8E5A /* LogTableViewController.swift */,
+				D74870BE1C767324003D8E5A /* ObservationViewController.swift */,
+				D74870B81C764AB9003D8E5A /* ObservationTableViewController.swift */,
+				D74870BC1C765F9A003D8E5A /* Observations.swift */,
+				D7ED17C81C64EEE400CA7B2A /* Observation.swift */,
 			);
 			path = AstroObservationLog;
 			sourceTree = "<group>";
@@ -158,12 +164,14 @@
 			files = (
 				D7ED17C91C64EEE400CA7B2A /* Observation.swift in Sources */,
 				D7ED17C11C63E4BE00CA7B2A /* AboutViewController.swift in Sources */,
+				D74870BB1C7653A4003D8E5A /* LogTableViewController.swift in Sources */,
+				D74870B91C764AB9003D8E5A /* ObservationTableViewController.swift in Sources */,
+				D74870BF1C767324003D8E5A /* ObservationViewController.swift in Sources */,
 				D7ED17BF1C63E48900CA7B2A /* AddViewController.swift in Sources */,
 				D7ED17B91C63DFA000CA7B2A /* README.md in Sources */,
 				D7ED17A91C63DED700CA7B2A /* ViewController.swift in Sources */,
-				D7ED17BD1C63E47300CA7B2A /* ListViewController.swift in Sources */,
 				D7ED17CB1C6504A900CA7B2A /* Entry.swift in Sources */,
-				D7ED17C71C64EEBE00CA7B2A /* Observations.swift in Sources */,
+				D74870BD1C765F9A003D8E5A /* Observations.swift in Sources */,
 				D7ED17A71C63DED700CA7B2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

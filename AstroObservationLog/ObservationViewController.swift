@@ -1,14 +1,14 @@
 //
-//  ListViewController.swift
+//  ObservationViewController.swift
 //  AstroObservationLog
 //
-//  Created by Kimberly Lovering on 2/4/16.
+//  Created by Kimberly Lovering on 2/18/16.
 //  Copyright © 2016 Lovering. All rights reserved.
 //
 
 import UIKit
 
-class ListViewController: UIViewController {
+class ObservationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
