@@ -10,7 +10,8 @@ import UIKit
 
 class LogTableViewController: UITableViewController {
     
-    var observationsInList: [Observation]?
+    //var observationsInList: [Observation]?
+    var observations: [Entry]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +21,6 @@ class LogTableViewController: UITableViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
-        var entries: [Entry]?
         
                 let entry1 = Entry()
                 let entry2 = Entry()
@@ -49,42 +48,33 @@ class LogTableViewController: UITableViewController {
                 entry3.instrument = "Celstron 925 GPS XLT SCT"
                 entry3.notes = "Could see nebula clouds. BIG hit with Henry. Got 45 shots at 3secs each."
         
-                entry4.object = "Jupiter"
+                entry4.object = "Jupiter2"
                 entry4.date = "02/15/2016"
                 entry4.power = "10x42"
                 entry4.seeing = "Level 3 - Good"
                 entry4.instrument = "Binoculars"
                 entry4.notes = "Could see three moons clearly"
         
-                entries = [entry1, entry2, entry3, entry4]
+                observations = [entry1, entry2, entry3, entry4]
         
-        
-            let observation = Observation()
-            observation.entry = entry2
-        
-            observationsInList = [observation]
-        
-        print(observation)
-        print(observationsInList)
-        
-    }
+        }
 
 
 
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return observationsInList?.count ?? 0
+        return observations?.count ?? 0
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("LogCell", forIndexPath: indexPath)
 
-        let observation = observationsInList?[indexPath.row]
+        let observation = observations?[indexPath.row]
         
-        if let observation = observation {
-            cell.textLabel?.text = observation.entry?.object
-            cell.detailTextLabel?.text = observation.entry?.date
+        if let o = observation {
+            cell.textLabel?.text = o.object
+            cell.detailTextLabel?.text = o.date
         }
         
         return cell
@@ -94,13 +84,13 @@ class LogTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
             // Delete the row from the data source
-            observationsInList?.removeAtIndex(indexPath.row)
+            observations?.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
-        if segue.identifier == "Show Product" {
+        if segue.identifier == "ShowEntry" {
             let observationVC = segue.destinationViewController as? ObservationViewController
             
             guard let cell = sender as? UITableViewCell,
@@ -108,7 +98,7 @@ class LogTableViewController: UITableViewController {
                     return
             }
             
-            observationVC?.observation = observationsInList?[indexPath.row]
+            observationVC?.observation = observations?[indexPath.row]
         }
     }
     

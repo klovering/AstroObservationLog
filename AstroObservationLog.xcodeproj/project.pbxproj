@@ -11,6 +11,7 @@
 		D74870BB1C7653A4003D8E5A /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74870BA1C7653A4003D8E5A /* LogTableViewController.swift */; };
 		D74870BD1C765F9A003D8E5A /* Observations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74870BC1C765F9A003D8E5A /* Observations.swift */; };
 		D74870BF1C767324003D8E5A /* ObservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74870BE1C767324003D8E5A /* ObservationViewController.swift */; };
+		D74870C11C7777B9003D8E5A /* TESTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74870C01C7777B9003D8E5A /* TESTViewController.swift */; };
 		D7ED17A71C63DED700CA7B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17A61C63DED700CA7B2A /* AppDelegate.swift */; };
 		D7ED17A91C63DED700CA7B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED17A81C63DED700CA7B2A /* ViewController.swift */; };
 		D7ED17AC1C63DED700CA7B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED17AA1C63DED700CA7B2A /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		D74870BA1C7653A4003D8E5A /* LogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTableViewController.swift; sourceTree = "<group>"; };
 		D74870BC1C765F9A003D8E5A /* Observations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observations.swift; sourceTree = "<group>"; };
 		D74870BE1C767324003D8E5A /* ObservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationViewController.swift; sourceTree = "<group>"; };
+		D74870C01C7777B9003D8E5A /* TESTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TESTViewController.swift; sourceTree = "<group>"; };
 		D7ED17A31C63DED700CA7B2A /* AstroObservationLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroObservationLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ED17A61C63DED700CA7B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7ED17A81C63DED700CA7B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				D74870B81C764AB9003D8E5A /* ObservationTableViewController.swift */,
 				D74870BC1C765F9A003D8E5A /* Observations.swift */,
 				D7ED17C81C64EEE400CA7B2A /* Observation.swift */,
+				D74870C01C7777B9003D8E5A /* TESTViewController.swift */,
 			);
 			path = AstroObservationLog;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				D7ED17A91C63DED700CA7B2A /* ViewController.swift in Sources */,
 				D7ED17CB1C6504A900CA7B2A /* Entry.swift in Sources */,
 				D74870BD1C765F9A003D8E5A /* Observations.swift in Sources */,
+				D74870C11C7777B9003D8E5A /* TESTViewController.swift in Sources */,
 				D7ED17A71C63DED700CA7B2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
